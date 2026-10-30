@@ -22,9 +22,7 @@ def on_message(ws, message):
 
 
 def on_error(ws, error):
-    # websocket-client перехватывает Ctrl+C и передаёт его сюда как ошибку
-    # с пустым текстом, поэтому без этой проверки программу не остановить.
-    if isinstance(error, KeyboardInterrupt):
+        if isinstance(error, KeyboardInterrupt):
         print("Ctrl+C: останавливаюсь...")
         stop_flag.set()
         return
