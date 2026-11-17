@@ -1,0 +1,9 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+ДАННЫЕ/
+*.parquet
+*.csv
+*.jsonl
+figures/task_*/

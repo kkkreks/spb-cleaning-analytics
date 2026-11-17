@@ -1,0 +1,11 @@
+pandas
+numpy
+duckdb
+h3
+lightgbm
+matplotlib
+seaborn
+pyspark
+python-docx
+requests
+openpyxl
